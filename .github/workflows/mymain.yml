@@ -29,9 +29,10 @@ jobs:
         uses: azure/webapps-deploy@v1
         with: 
         
-        app-name: cmst385-tnelsen
-        slot-name: 'production'
+         app-name: cmst385-tnelsen
+         slot-name: 'production'
           
-        publish-profile: ${{ secrets.AppServiceCMST385 }}
+         publish-profile: ${{ secrets.AppServiceCMST385 }}
+         
       
       
