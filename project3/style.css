@@ -3,7 +3,6 @@ body {
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 20px;
 	color: rgba(67, 68, 80, 1) ;
-	margin
 }
 
 #header {
@@ -12,10 +11,6 @@ body {
   text-align: center;
 	font-family: Dharma Gothic M Light Italic, Dharma Gothic E Light Italic, Good Headline Pro Comp Italic, Kaneda Gothic Regular Italic, cursive;
 	font-size:30px;
-}
-h1 {
-	text-align: center;
-	font-fanily
 }
 table {
   width: 100%;
