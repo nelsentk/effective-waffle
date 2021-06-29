@@ -42,7 +42,6 @@ ul {
   padding: 0;
   overflow: hidden;
   text-align: center;
-  background-color: #333;
 }
 
 li {
@@ -57,12 +56,6 @@ li a {
 	font-size: 17px;
 	font-family: Verdana, Arial, sans-serif;
 }
-ul {
-  position: -webkit-sticky; 
-  position: sticky;
-  top: 0;
-}
-
 .footer {
   background-color: #F1F1F1;
   text-align: center;
