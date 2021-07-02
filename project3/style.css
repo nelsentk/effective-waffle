@@ -123,16 +123,11 @@ h3 {
 }
 
 .swifty_link {
-	display: block;
+	width: 50%;
   margin-left: auto;
   margin-right: auto;
-  width: 600px;
-	height: 500px;
-	padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
 }
+
 a.swifty_link {
 	position:relative;
 	color:#ff6;
@@ -149,10 +144,9 @@ a.swifty_link:hover {
 a.swifty_link img {
 	border:none;
 	vertical-align:bottom;
-	}
+}
 
 a.swifty_link span {
 	position:absolute;width:50%;
 	bottom:0;
-	left:0;
 }
