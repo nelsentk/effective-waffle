@@ -7,7 +7,7 @@ body {
 
 #header {
   background-color: #f1f1f1;
-	color: (67, 68, 80, 1);
+	color: rgba(67, 68, 80, 1);
   padding: 20px;
   text-align: center;
 	font-family: Dharma Gothic M Light Italic, Dharma Gothic E Light Italic, Good Headline Pro Comp Italic, Kaneda Gothic Regular Italic, cursive;
@@ -67,7 +67,7 @@ p {
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
-	color: (46,37,40,1);
+	color: rgba(46,37,40,1);
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 18px;
 }
