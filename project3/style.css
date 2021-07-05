@@ -4,12 +4,19 @@ body {
 	font-size: 20px;
 	color: rgba(67, 68, 80, 1) ;
 }
-
 #header {
   background-color: #f1f1f1;
 	color: rgba(67, 68, 80, 1);
   padding: 20px;
   text-align: center;
+	font-family: Dharma Gothic M Light Italic, Dharma Gothic E Light Italic, Good Headline Pro Comp Italic, Kaneda Gothic Regular Italic, cursive;
+	font-size:30px;
+}
+.h1	{
+	background-color: #f1f1f1;
+	color: rgba(67, 68, 80, 1);
+	padding: 20px;
+	text-align: center;
 	font-family: Dharma Gothic M Light Italic, Dharma Gothic E Light Italic, Good Headline Pro Comp Italic, Kaneda Gothic Regular Italic, cursive;
 	font-size:30px;
 }
@@ -27,7 +34,6 @@ img {
   padding-bottom: 50px;
   padding-left: 80px;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,11 +41,9 @@ ul {
   overflow: hidden;
   text-align: center;
 }
-
 li {
 	display: inline-block;
 }
-
 li a {
 	text-decoration: none;
 	width: 100px;
@@ -48,8 +52,6 @@ li a {
 	font-size: 17px;
 	font-family: Verdana, Arial, sans-serif;
 }
-
-
 .footer {
   background-color: #F1F1F1;
   text-align: center;
@@ -61,7 +63,13 @@ li a {
 	text-align: center;
 	font-size: 60px;
 }
-
+.h2	{
+	color: rgba(67, 68, 80, 1);
+	padding: 20px;
+	text-align: center;
+	font-family: Dharma Gothic M Light Italic, Dharma Gothic E Light Italic, Good Headline Pro Comp Italic, Kaneda Gothic Regular Italic, cursive;
+	font-size:30px;
+}
 p {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -77,15 +85,12 @@ h3 {
 	font-size: 35px;
 	font-family: Verdana Bold, Arial Bold, sans-serif Bold;
 }
-
 .container {
   position: relative;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-
 }
-
 .image {
   opacity: 1;
   display: block;
@@ -96,7 +101,6 @@ h3 {
   margin-right: 60px;
   width: 100%;
 }
-
 .middle {
   transition: .5s ease;
   opacity: 0;
@@ -106,22 +110,18 @@ h3 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
-
 .container:hover .image {
   opacity: 0.3;
 }
-
 .container:hover .middle {
   opacity: 1;
 }
-
 .text {
   background-color: #333;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
 }
-
 .swifty_link {
 	display: block;
   margin-left: auto;
@@ -144,7 +144,6 @@ h3 {
   margin-right: 60px;
   width: 100%;
 }
-
 a.swifty_link {
 	position:relative;
 	color:#ff6;
@@ -152,17 +151,14 @@ a.swifty_link {
 	display:inline-block;
 	overflow:hidden;
 	}
-
 a.swifty_link:hover {
 	color:#68D6FF;
 	text-decoration:none;
 	}
-
 a.swifty_link img {
 	border:none;
 	vertical-align:bottom;
 }
-
 a.swifty_link span {
 	position:relative;
 	width:50%;
