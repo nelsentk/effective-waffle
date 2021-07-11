@@ -2,7 +2,7 @@ body {
   background: rgba(251, 236, 231, 1);
   font-family: Verdana, Arial, sans-serif;
   font-size: 20px;
-  color: rgba(0, 0, 0, 1)
+  color: rgba(0, 0, 0, 1);
 }
 #header {
   background-color: rgba(242, 242, 242, 1);
@@ -29,7 +29,7 @@ p {
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 18px;
 }
-ul {
+ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,10 +38,10 @@ ul {
 	background-color: #b1cbbb;
   justify-content: space-around;
 }
-li {
+ nav li {
 	display: inline-block;
 }
-li a {
+ nav li a {
 	text-decoration: none;
 	width: 100px;
 	display: block;
@@ -50,9 +50,14 @@ li a {
 	font-family: Verdana, Arial, sans-serif;
   color: white;
 }
-li a:hover {
+nav li a:hover {
   background-color:rgba(255, 255, 255, 0.5);
   width: 100%
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px
 }
 .image {
   display: block;
@@ -216,4 +221,18 @@ a:active {
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+}
+table {
+  width: 100%;
+}
+tr:nth-child(even){background-color: rgba(248, 220, 211, 1);
+}
+th {
+  background-color: #b1cbbb;
+  color: rgba(0, 0, 0, 1);
 }
