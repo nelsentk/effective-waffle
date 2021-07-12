@@ -229,7 +229,7 @@ th {
   background-color: #b1cbbb;
   color: rgba(0, 0, 0, 1);
 }
-.knitting {
+table.knitting {
   border: 1px solid black;
   text-align: center;
   padding: 15px;
