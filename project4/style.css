@@ -236,4 +236,5 @@ th {
   display: block;
   max-width: 500%;
   overflow: scroll;
+  position: center;
 }
