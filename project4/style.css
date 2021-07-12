@@ -228,7 +228,7 @@ table, th, td {
   padding: 15px;
 }
 table {
-  width: 100%;
+  width: 1000%;
 }
 tr:nth-child(even){background-color: rgba(248, 220, 211, 1);
 }
