@@ -236,5 +236,6 @@ table.knitting {
   display: block;
   max-width: 500%;
   overflow: scroll;
-  margin: 0 auto;
+  margin: 0px auto;
+  margin-top: 13%;
 }
