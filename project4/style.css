@@ -222,20 +222,17 @@ a:active {
   padding-bottom: 20px;
   padding-left: 20px;
 }
-
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+}
+table {
+  width: 100%;
+}
 tr:nth-child(even){background-color: rgba(248, 220, 211, 1);
 }
 th {
   background-color: #b1cbbb;
   color: rgba(0, 0, 0, 1);
-}
-table.knitting {
-  border: 1px solid black;
-  text-align: center;
-  padding: 15px;
-  display: block;
-  max-width: 500%;
-  overflow: scroll;
-  margin: 0px auto;
-  margin-top: 13%;
 }
