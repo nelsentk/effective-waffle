@@ -236,8 +236,6 @@ th {
   display: block;
   max-width: 500%;
   overflow: scroll;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  margin-left: -70px;
+  margin-right: 60px;
 }
