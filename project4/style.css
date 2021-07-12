@@ -233,8 +233,7 @@ th {
   border: 1px solid black;
   text-align: center;
   padding: 15px;
-  width: 1000%;
   display: block;
-  max-width: 100%;
-  overflow: scroll; <!-- Available options: visible, hidden, scroll, auto -->
+  max-width: 500%;
+  overflow: scroll;
 }
